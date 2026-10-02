@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Course Platform</title>
+    <style>
+      table,
+      td,
+      tr,
+      th {
+        border: 1px black solid;
+        border-collapse: collapse;
+        border-radius: 55px;
+        padding: 5px;
+      }
+      img {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Our Online Course Platform</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#registration">Registration</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="AboutUs">
+        <h2>Online Course Platform</h2>
+        <p>
+          <strong>Our online platform</strong>
+          <em>
+            provides a simple and convenient way to discover, learn, and connect
+            with others. Explore useful content, access helpful resources, and
+            improve your skills anytime and anywhere.</em
+          >
+        </p>
+        <p>
+          <strong>Our Platform</strong>
+          <em
+            >provides a simple and convenient way to discover, learn, and
+            connect with others. Explore useful content, access helpful
+            resources, improve your skills, and stay connected with a growing
+            community anytime and anywhere.</em
+          >
+        </p>
+      </section>
+      <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <ul>
+          <li>HTML Markup</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+
+        <article>
+          <h2>Online platform</h2>
+          <img src="frontend.png" alt="Frontend Development Course" />
+          <p>
+            Online Platform provides a simple and convenient way to discover,
+            learn, and connect with others. Explore useful content, access
+            helpful resources, improve your skills, and stay connected with a
+            growing community anytime and anywhere. Whether you are looking for
+            educational materials, new ideas, or a place to share your
+            knowledge, our platform offers everything you need to learn,
+            communicate, and grow in one place.
+          </p>
+        </article>
+      </section>
+      <section id="available-courses" class="available-courses">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">AVAILABLE COURSES</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>Course</th>
+              <th>Teacher</th>
+              <th>Duration</th>
+              <th>Level</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Ana</td>
+              <td>4 Weeks</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Giorgi</td>
+              <td>5 Weeks</td>
+              <td>Beginner</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Nino</td>
+              <td>8 Weeks</td>
+              <td>Intermediate</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>Luka</td>
+              <td>8 Weeks</td>
+              <td>Intermediate</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <section id="registration" class="registration">
+        <form action="">
+          <label for="fname">Full Name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter Your Name Here"
+          />
+          <br />
+          <label for="email">Email Here:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email Here"
+          />
+          <br />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter Your Password Here"
+          />
+          <br />
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            min="18"
+            max="99"
+            placeholder="Age"
+          />
+          <br />
+          <label for="course">Choose Course</label>
+          <select id="course" name="course">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="React">React</option>
+          </select>
+          <br />
+          <button type="submit">Register</button>
+        </form>
+      </section>
+      <br />
+      <section class="chess">
+        <h3>My Favourite Chess Figures</h3>
+        <ul>
+          <li>The Bishop &#9821;</li>
+          <li>The Knight &#9822;</li>
+          <li>The Rook &#9820;</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <strong><a href="#">&copy;Alexander Gagnidze</a></strong>
+      </p>
+    </footer>
+  </body>
+</html>
